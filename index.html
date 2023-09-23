@@ -5,27 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link
-      rel="stylesheet" href="./fonts/fonts.css">
-    </link>
-    <link
-      rel="stylesheet" href="./styles/global.css">
-    </link>
-    <link 
-      rel="stylesheet" href="./styles/style.css">
-    </link>
+    <link rel="stylesheet" href="./fonts/fonts.css"></link>
+    <link rel="stylesheet" href="./styles/global.css"></link>
+    <link rel="stylesheet" href="./styles/style.css"></link>
   </head>
   <body>
 		<main>
-      <header class="header">
+      <header class="header" id="header">
       <nav class="header_menu">
-        <ul class=" header_menu header_menu-list">
+        <ul class="header_menu header_menu-list">
 					<li class="header_links-list-item header_links-list-item_no-bullit">
 						<a class="header_link header_link_active" href="#0">главная</a>
 					</li>
 					<li class="header_links-list-item">
 						<a class="heder_link" href="#lots">посмотреть лоты</a>
-						<!--на кой хер класс в ссылке, Кристина?!-->
 					</li>
 					<li class="header_links-list-item">
 						<a class="header_link" href="#about"> об аукционе</a>
@@ -46,7 +39,7 @@
 				</a>
 			</address>
 	  	</header>
-			<section class="cover content-section">
+			<section class="cover">
 				<div class="overlay">
 				</div>
 				<h1 class="cover-title">
@@ -54,19 +47,19 @@
 					<span class="aligned_text aligned_text-center">те<span class="letter-spacing-extended">бе</span></span>
 					<span class="aligned_text aligned_text-right"><span class="letter-spacing-extended">н</span>адо</span>
 				</h1>
-				<div class="cover_discription">
-					<p class="cover_discription-text">Аукцион вещей, в которые никто не верил</p>
+				<div class="cover_description">
+					<p class="cover_description-text">Аукцион вещей, в которые никто не верил</p>
 					<button class="bet-button">сделать ставку</button>
 				</div>
 			</section>
-			<section class="lots">
+			<section class="lots" id="lots">
 				<h2 class="lots_heading">лоты</h2>
 					<ul class="lots_card-list">
 						<li class="lots_card-list-item">
+							<a class="card_link" href="#0">
 							<article class="card card-type-film">
 								<div class="overlay"></div>
-								<a class="card_link" href="#0"></a>
-								<h3 class="card-title">фильм режиссёра, который бросил школу</h3>
+								<h3 class="card-title">фильм режиссёра, который бросил киношколу</h3>
 									<div class="card-text">
 										<p>
 											Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
@@ -74,11 +67,12 @@
 										</p>
 									</div>
 							</article>
+						</a>
 						</li>
 						<li class="lots_card-list-item">
+							<a class="card_link" href="#0">
 							<article class="card card-type-book">
 								<div class="overlay"></div>
-								<a class="card_link" href="#0"></a>
 								<h4 class="card-title">книга, где описан один скучный день из жизни рекламного агента</h4>
 									<div class="card-text">
 										<p>
@@ -90,11 +84,12 @@
 										</p>
 									</div>
 							</article>
+						</a>
 						</li>
 						<li class="lots_card-list-item">
+							<a class="card_link" href="#0">
 							<article class="card card-type-picture">
 								<div class="overlay"></div>
-								<a class="card_link" href="#0"></a>
 								<h5 class="card-title">картина, которую повторит даже 5-летний сын маминой подруг</h5>
 									<div class="card-text">
 										<p>
@@ -105,11 +100,12 @@
 										</p>
 									</div>
 							</article>
+						</a>
 						</li>
 					</ul>
-					<div class="lots_look-more-link">посмотреть больше</div>
+					<a class="lots_look-more-link" href="#0">посмотреть больше</a>
 			</section>
-			<section class="about">
+			<section class="about" id="about">
 				<div class="about_logo">
 					<img
 					class="about_logo-image"
@@ -126,7 +122,6 @@
 					прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
 					на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру.
 					Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
-				</div>
 			</section>
 		</main>
 		<footer class="footer">
@@ -139,10 +134,10 @@
 			<nav class="footer_menu">
 				<ul class="footer_menu-list">
 					<li class="footer_menu-link footer_menu-link_active">
-						<a class="footer_menu-link" href="#0">главная</a>
+						<a class="footer_menu-link" href="#header">главная</a>
 					</li>
 					<li class="footer_menu-link">
-						<a href="#0">посмотреть лоты</a>
+						<a href="#lots">посмотреть лоты</a>
 					</li>
 					<li class="footer_menu-link">
 						<a href="#0">об аукционе</a>
@@ -151,7 +146,7 @@
 			</nav>
 			<ul class="footer_social-list">
 				<li class="footer_social-list-item">
-					<a class="footer_social-link" href="#0">
+					<a class="footer_social-link" href="https://www.youtube.com">
 						<img 
 							class="footer_social-icon"
 							src="./images/yt.svg"
@@ -159,7 +154,7 @@
 					</a>
 				</li>
 				<li class="footer_social-list-item">
-					<a class="footer_social-link" href="#0">
+					<a class="footer_social-link" href="https://vk.com">
 						<img	
 							class="footer_social-icon"
 							src="./images/vk.svg"
@@ -167,7 +162,7 @@
 					</a>
 				</li>
 				<li class="footer_social-list-item">
-					<a class="footer_social-link" href="#0">
+					<a class="footer_social-link" href="https://ru.pinterest.com">
 						<img
 							class="footer_social-icon"
 							src="./images/pinterest.svg"
