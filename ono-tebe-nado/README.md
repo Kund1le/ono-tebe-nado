@@ -1,1 +1,0 @@
-https://github.com/Kund1le/ono-tebe-nado.git
